@@ -1,0 +1,144 @@
+.homePageWrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.formWrapper {
+  background: rgb(214, 165, 19);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel {
+  margin: 20px;
+  margin-top: 0;
+}
+
+.homePageLogo {
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinbtn,
+.leaveBtn {
+  background: black;
+  color: rgb(214, 165, 19);
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinbtn:hover,
+.leaveBtn:hover {
+  background: rgb(44, 44, 44);
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn :hover,
+footer a:hover {
+  color: rgb(44, 44, 44);
+  border-color: rgb(44, 44, 44);
+}
+
+.mainwrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+}
+
+.aside {
+  background: rgb(214, 165, 19);
+  padding: 16px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideInner {
+  flex: 1;
+  color: black;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.username {
+  margin-top: 10px;
+}
+
+.logo {
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+}
+
+.logoImage {
+  height: 60px;
+}
+
+.leaveBtn {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.CodeMirror {
+  min-height: calc(100vh - 50px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
